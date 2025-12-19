@@ -1,0 +1,53 @@
+body{
+    background-color: skyblue;
+    position: relative;
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+}
+button:hover{
+    color: black;
+}
+.input{
+    position: absolute;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    margin-left: 400px;
+    padding: 10px;
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+}
+input[type=""]{
+    padding: 10px;
+    margin-top: 30px;
+    /* margin-left: 70px; */
+    border: none;
+    outline: none;
+}
+.qw{
+    margin-left: 40px;
+    border-bottom-style:groove;
+    width: 250px;
+}
+.img{
+    position: absolute;
+    z-index: 1000;
+    margin-left: 210px;
+    margin-top: 90px;
+}
+.img2{
+    position: absolute;
+    z-index: -100;
+    margin-left: 700px;
+    margin-top: 310px;
+}
